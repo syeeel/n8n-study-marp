@@ -501,7 +501,7 @@ mermaid.initialize({ startOnLoad: true });
 <div class="card animated">
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin: 1em 0; align-items: center;">
     <div style="text-align: center;">
-      <img src="../src/images/driver2.png" alt="Copilot登場" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+      <img src="images/driver2.png" alt="Copilot登場" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
     </div>
     <div>
       <h3>🤖 Copilotが登場すると</h3>
@@ -534,7 +534,7 @@ mermaid.initialize({ startOnLoad: true });
       </div>
     </div>
     <div style="text-align: center;">
-      <img src="../src/images/driver3.png" alt="運転席の譲歩" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+      <img src="images/driver3.png" alt="運転席の譲歩" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
     </div>
   </div>
 </div>
@@ -546,7 +546,7 @@ mermaid.initialize({ startOnLoad: true });
 <div class="card animated">
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin: 1em 0; align-items: center;">
     <div style="text-align: center;">
-      <img src="../src/images/driver4.png" alt="AI自立" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+      <img src="images/driver4.png" alt="AI自立" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
     </div>
     <div>
       <h3>🚀 自律的なAI</h3>
@@ -577,7 +577,7 @@ mermaid.initialize({ startOnLoad: true });
       </blockquote>
     </div>
     <div style="text-align: center;">
-      <img src="../src/images/graph.png" alt="Agenticシステムのスペクトラム" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
+      <img src="images/graph.png" alt="Agenticシステムのスペクトラム" style="width: 100%; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);">
     </div>
   </div>
 </div>
@@ -813,7 +813,7 @@ mermaid.initialize({ startOnLoad: true });
 </div>
 
 <div style="display: flex; justify-content: center; margin: 2em 0;">
-  <img src="..//src/images/GmailSummary.png" alt="Gmail Summary Workflow" style="width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+  <img src="images/GmailSummary.png" alt="Gmail Summary Workflow" style="width: 90%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
 </div>
 
 ---
