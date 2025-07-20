@@ -818,6 +818,64 @@ mermaid.initialize({ startOnLoad: true });
 
 ---
 
+# Part2-6. n8n は LangChain を利用
+
+<div class="card animated">
+  <h3>🔗 LangChain とは</h3>
+  
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin: 1.5em 0; align-items: center;">
+    <div>
+      <h4 style="color: var(--rp-iris); margin-bottom: 1em;">📚 概要</h4>
+      <ul style="color: var(--rp-text); line-height: 1.6;">
+        <li><strong>LLMアプリケーション開発フレームワーク</strong></li>
+        <li>複数のAIモデルを組み合わせて活用</li>
+        <li>チェーン（連鎖）処理でタスクを実行</li>
+        <li>Pythonライブラリとして提供</li>
+      </ul>
+    </div>
+    <div>
+      <h4 style="color: var(--rp-foam); margin-bottom: 1em;">🎯 主な機能</h4>
+      <ul style="color: var(--rp-text); line-height: 1.6;">
+        <li>プロンプトテンプレートの管理</li>
+        <li>メモリ機能（会話履歴の保持）</li>
+        <li>RAG（検索拡張生成）の実装</li>
+        <li>エージェント機能</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="card animated">
+  <h3>🔄 LangChain vs n8n の比較</h3>
+  
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin: 1.5em 0;">
+    <div>
+      <h4 style="color: var(--rp-love); margin-bottom: 1em;">⚠️ LangChainのデメリット</h4>
+      <ul style="color: var(--rp-text); line-height: 1.6;">
+        <li><strong>プログラミング知識が必須</strong></li>
+        <li>コードベースでの開発・保守</li>
+        <li>視覚的なワークフロー把握が困難</li>
+        <li>非技術者との共有・説明が複雑</li>
+        <li>デバッグやトラブルシューティングの難易度</li>
+        <li>開発環境・依存関係の管理</li>
+      </ul>
+    </div>
+    <div>
+      <h4 style="color: var(--rp-foam); margin-bottom: 1em;">✨ n8nの優位性</h4>
+      <ul style="color: var(--rp-text); line-height: 1.6;">
+        <li><strong>視覚的なドラッグ&ドロップ操作</strong></li>
+        <li>コードなしでワークフロー構築</li>
+        <li>直感的なフロー理解</li>
+        <li>リアルタイムデバッグ機能</li>
+        <li>すぐに使える豊富なノード</li>
+      </ul>
+    </div>
+  </div>
+
+---
+
 # ワークフロー作成手順
 
 <div style="display: flex; justify-content: space-around; margin-top: 2em;">
@@ -852,7 +910,6 @@ mermaid.initialize({ startOnLoad: true });
 - TypeScript/JavaScript で開発
 - npm パッケージとして配布
 - コミュニティへの貢献
-- 企業固有の統合
 
 ### 📡 API 連携
 
@@ -860,21 +917,6 @@ mermaid.initialize({ startOnLoad: true });
 - Webhook 受信
 - 外部システム連携
 - CI/CD 統合
-
----
-
-### 🎨 UI カスタマイズ
-
-- テーマカスタマイズ
-- ブランディング対応
-- 多言語対応
-- アクセシビリティ
-
-### 🔌 プラグインシステム
-
-- 認証方式拡張
-- データ形式変換
-- 特殊処理追加
 
 ---
 
@@ -941,14 +983,56 @@ mermaid.initialize({ startOnLoad: true });
     </ul>
   </div>
   <div class="card animated" style="width: 30%; text-align: center; padding: 1em;">
-    <h3 style="color: var(--rp-rose); font-size: 24px; margin-bottom: 0.5em;">📦 npm</h3>
-    <p style="font-size: 18px; color: var(--rp-gold); font-weight: bold;">直接インストール</p>
+    <h3 style="color: var(--rp-love); font-size: 24px; margin-bottom: 0.5em;">☁️ AWS</h3>
+    <p style="font-size: 18px; color: var(--rp-gold); font-weight: bold;">クラウドデプロイ</p>
     <ul style="text-align: left; font-size: 16px; color: var(--rp-text);">
-      <li>完全制御</li>
-      <li>カスタマイズ可能</li>
-      <li>開発環境向け</li>
-      <li>無料</li>
+      <li>IaCでホスティング</li>
+      <li>ECS/EKS対応</li>
+      <li>スケーラブル</li>
+      <li>クラウドの従量課金だけで利用可能</li>
     </ul>
+  </div>
+</div>
+
+---
+
+<div class="card animated">
+  <h3>🏗️ Infrastructure as Code (IaC) による n8n デプロイ</h3>
+  
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin: 1.5em 0; align-items: center;">
+    <div>
+      <div style="margin-bottom: 1.5em;">
+        <h4 style="color: var(--rp-iris); margin-bottom: 1em;">🎯 AWS CDK の利点</h4>
+        <ul style="color: var(--rp-text); line-height: 1.6;">
+          <li><strong>コードベースのインフラ管理</strong></li>
+          <li>バージョン管理とレビュー可能</li>
+          <li>再現可能なデプロイメント</li>
+          <li>TypeScriptでの開発</li>
+          <li>AWS リソースの自動プロビジョニング</li>
+        </ul>
+      </div>
+    </div>
+    <div style="text-align: center;">
+      <img src="images/aws-cdk.png" alt="AWS CDK Architecture" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="card animated">
+  <h3>🏗️ AWS CDK による n8n デプロイメント構成</h3>
+  
+  <div style="display: flex; justify-content: center; margin: 1em 0;">
+    <img src="images/aws-n8n-diagram.png" alt="AWS n8n Deployment Architecture" style="width: 65%; height: auto; max-height: 50vh; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
+  </div>
+</div>
+
+<div class="card animated">
+  <h3>🏗️ AWS CDK による n8n デプロイメント構成</h3>
+  
+  <div style="display: flex; justify-content: center; margin: 2em 0;">
+    <img src="images/aws-n8n-diagram.png" alt="AWS n8n Deployment Architecture" style="width: 75%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
   </div>
 </div>
 
@@ -1000,7 +1084,6 @@ mermaid.initialize({ startOnLoad: true });
 - 単一責任 - 1 つのノードに 1 つの機能
 - エラーハンドリング - 例外処理の実装
 - ログ記録 - 実行履歴の保存
-- バージョン管理 - 変更履歴の追跡
 
 ### セキュリティ
 
@@ -1053,7 +1136,7 @@ mermaid.initialize({ startOnLoad: true });
     <li><strong>クイックスタート</strong> - 基本的なワークフロー作成</li>
     <li><strong>チュートリアル</strong> - 実践的な例を通じた学習</li>
     <li><strong>コース</strong> - 体系的な知識習得</li>
-    <li><strong>コミュニティ参加</strong> - 実践と交流</li>
+    <li><strong>ワークショップ参加</strong> - 実践と交流</li>
   </ol>
 </div>
 </div>
