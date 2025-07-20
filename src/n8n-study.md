@@ -380,6 +380,7 @@ mermaid.initialize({ startOnLoad: true });
     <li><strong>ビジネスモデル</strong> - 収益構造と提供価値</li>
     <li><strong>市場ポジション</strong> - 競合分析と差別化</li>
     <li><strong>実際のワークフロー作成デモ</strong> - Gmail Summary実例</li>
+    <li><strong>n8n は LangChain を利用</strong> - LangChainとの関係性</li>
   </ol>
 </div>
 
