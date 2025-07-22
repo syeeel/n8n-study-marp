@@ -346,7 +346,7 @@ mermaid.initialize({ startOnLoad: true });
 
 # <span>AI Agent & n8n</span>
 
-## AI ワークフロー自動化プラットフォーム
+## AI エージェント開発プラットフォーム
 
 <!-- _class: title-slide -->
 
@@ -848,7 +848,7 @@ mermaid.initialize({ startOnLoad: true });
 
 ---
 
-<div class="card animated">
+<div>
   <h3>🔄 LangChain vs n8n の比較</h3>
   
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em; margin: 1.5em 0;">
@@ -924,7 +924,7 @@ mermaid.initialize({ startOnLoad: true });
 # Part3-2. セキュリティと運用
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; height: 46vh;">
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">🔐 セキュリティ機能</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>認証・認可</li>
@@ -932,7 +932,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>アクセス制御</li>
     </ul>
   </div>
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">📊 監視・ログ</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>実行ログの詳細記録</li>
@@ -940,7 +940,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>エラー通知システム</li>
     </ul>
   </div>
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">🔄 運用管理</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>バックアップ</li>
@@ -948,7 +948,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>更新管理</li>
     </ul>
   </div>
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">📈 パフォーマンス</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>非同期処理</li>
@@ -963,7 +963,7 @@ mermaid.initialize({ startOnLoad: true });
 # Part3-3. n8n の導入方法
 
 <div style="display: flex; justify-content: space-around; margin: 2em 0;">
-  <div class="card animated" style="width: 30%; text-align: center; padding: 1em;">
+  <div style="width: 30%; text-align: center; padding: 1em;">
     <h3 style="color: var(--rp-iris); font-size: 24px; margin-bottom: 0.5em;">☁️ n8n Cloud</h3>
     <p style="font-size: 18px; color: var(--rp-gold); font-weight: bold;">マネージドサービス</p>
     <ul style="text-align: left; font-size: 16px; color: var(--rp-text);">
@@ -973,7 +973,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>有料プラン</li>
     </ul>
   </div>
-  <div class="card animated" style="width: 30%; text-align: center; padding: 1em;">
+  <div style="width: 30%; text-align: center; padding: 1em;">
     <h3 style="color: var(--rp-foam); font-size: 24px; margin-bottom: 0.5em;">🐳 Docker</h3>
     <p style="font-size: 18px; color: var(--rp-gold); font-weight: bold;">推奨方法</p>
     <ul style="text-align: left; font-size: 16px; color: var(--rp-text);">
@@ -983,7 +983,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>無料</li>
     </ul>
   </div>
-  <div class="card animated" style="width: 30%; text-align: center; padding: 1em;">
+  <div style="width: 30%; text-align: center; padding: 1em;">
     <h3 style="color: var(--rp-love); font-size: 24px; margin-bottom: 0.5em;">☁️ AWS</h3>
     <p style="font-size: 18px; color: var(--rp-gold); font-weight: bold;">クラウドデプロイ</p>
     <ul style="text-align: left; font-size: 16px; color: var(--rp-text);">
@@ -1021,7 +1021,7 @@ mermaid.initialize({ startOnLoad: true });
 
 ---
 
-<div class="card animated">
+<div >
   <h3>🏗️ AWS CDK による n8n デプロイメント構成</h3>
   
   <div style="display: flex; justify-content: center; margin: 1em 0;">
@@ -1042,7 +1042,7 @@ mermaid.initialize({ startOnLoad: true });
 # Part3-4. トラブルシューティング
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 10px; height: 46vh;">
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">🔍 よくある問題</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>認証エラー</li>
@@ -1050,7 +1050,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>データ形式エラー</li>
     </ul>
   </div>
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">🛠️ デバッグ手法</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>実行ログの詳細確認</li>
@@ -1058,7 +1058,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>データフローの可視化</li>
     </ul>
   </div>
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">📋 診断チェックリスト</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>接続確認</li>
@@ -1066,7 +1066,7 @@ mermaid.initialize({ startOnLoad: true });
       <li>権限確認</li>
     </ul>
   </div>
-  <div class="card animated" style="padding: 0.6em;">
+  <div style="padding: 0.6em;">
     <h3 style="font-size: 1em; margin-bottom: 0.3em;">🔧 解決策</h3>
     <ul style="font-size: 0.9em; line-height: 1.1;">
       <li>再認証の実行</li>
@@ -1152,7 +1152,7 @@ mermaid.initialize({ startOnLoad: true });
     <ul style="list-style-type: none; padding-left: 0;">
       <li style="margin-bottom: 1em; display: flex; align-items: center;">
         <span style="background-color: var(--rp-iris); color: white; border-radius: 50%; width: 24px; height: 24px; display: inline-flex; justify-content: center; align-items: center; margin-right: 10px;">1</span>
-        <span><strong>Fair-codeライセンス</strong> - プライバシーと制御の両立</span>
+        <span><strong>Fair-codeライセンス</strong> - 中小企業と大企業利用の両立</span>
       </li>
       <li style="margin-bottom: 1em; display: flex; align-items: center;">
         <span style="background-color: var(--rp-iris); color: white; border-radius: 50%; width: 24px; height: 24px; display: inline-flex; justify-content: center; align-items: center; margin-right: 10px;">2</span>
@@ -1171,13 +1171,13 @@ mermaid.initialize({ startOnLoad: true });
 </div>
 
 <div style="text-align: center; margin-top: 3em;">
-  <p style="font-size: 28px; font-weight: bold; color: var(--rp-iris);">n8nでワークフロー自動化の未来を創造しよう</p>
+  <p style="font-size: 28px; font-weight: bold; color: var(--rp-iris);">n8nでAIエージェント開発を加速化させましょう!</p>
 </div>
 </div>
 
 ---
 
-<div class="card animated" style="display: flex; justify-content: center; align-items: center; height: 70vh;">
+<div style="display: flex; justify-content: center; align-items: center; height: 70vh;">
   <div style="text-align: center;">
     <h2 style="font-size: 36px; margin-bottom: 1em; color: var(--rp-iris);">That's all, thank you</h2>
     <img src="https://cdn-icons-png.flaticon.com/512/889/889221.png" alt="Thank you" style="width: 150px !important; margin: 0 auto !important;">
