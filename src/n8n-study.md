@@ -574,7 +574,6 @@ mermaid.initialize({ startOnLoad: true });
       <p>AI エージェントとワークフローは、実際には明確に分離されたものではなく、<strong>グラデーション</strong>な関係にあります。</p>
       <blockquote style="margin: 1em 0; padding: 1em; border-left: 4px solid var(--rp-iris); background: var(--rp-overlay);">
         <em>"Agentic systems consist of both workflows and agents (and everything in between)"</em>
-        <footer style="margin-top: 0.5em; font-size: 0.9em; color: var(--rp-muted);">— LangChain Blog</footer>
       </blockquote>
     </div>
     <div style="text-align: center;">
