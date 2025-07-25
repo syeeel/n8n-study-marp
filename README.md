@@ -52,7 +52,7 @@ npx marp src/n8n-study.md --pdf --allow-local-files -o docs/index.pdf
 # 編集可能な PPTX に変換するコマンド
 
 ```
-marp --pptx --pptx-editable n8n-study.md
+marp --pptx --pptx-editable src/n8n-study.md
 ```
 
 ※ Chrome や LibreOffice がインストールされている必要があります。そのため、ローカルでの実行が望ましいです。

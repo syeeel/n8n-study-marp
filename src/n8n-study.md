@@ -1028,14 +1028,6 @@ mermaid.initialize({ startOnLoad: true });
   </div>
 </div>
 
-<div class="card animated">
-  <h3>🏗️ AWS CDK による n8n デプロイメント構成</h3>
-  
-  <div style="display: flex; justify-content: center; margin: 2em 0;">
-    <img src="images/aws-n8n-diagram.png" alt="AWS n8n Deployment Architecture" style="width: 75%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);">
-  </div>
-</div>
-
 ---
 
 # Part3-4. トラブルシューティング
